@@ -1,1 +1,10 @@
-
+on: 
+  # push:
+  workflow_dispatch:
+ 
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./convert_to_pdf.sh
