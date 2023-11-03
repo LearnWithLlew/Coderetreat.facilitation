@@ -1,4 +1,6 @@
 ~*
+.~*
+*.tmp
 previous.pdf
 .DS_Store
 Coderetreat_Printouts/
